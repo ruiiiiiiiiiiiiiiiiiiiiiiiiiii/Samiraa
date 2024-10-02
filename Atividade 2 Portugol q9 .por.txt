@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro a	
+	escreva ("Escreva seu numero: ")
+	leia(a)
+	se (a%3 ==0 e a%5 == 0){
+		escreva ("Divisivel pelo dois")
+	}
+	
+	senao se (a%3 ==0){
+		escreva ("divisivel por 3")
+	}
+	senao se (a%5 ==0){
+		escreva ("divisivel por 5")
+	}
+	senao {
+		escreva ("nao divisivel")
+	}
+	}
+}
